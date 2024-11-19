@@ -1,8 +1,0 @@
-__pycache__
-.vscode
-*.out
-*.ipynb_checkpoints
-*.sh
-*.ipynb
-upload_zenodo.py
-download_seqs.py

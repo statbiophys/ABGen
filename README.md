@@ -1,6 +1,6 @@
 # Generative model for monoclonal antibodies
 
-This repo contains code for the paper [Generative model for monoclonal antibodies].
+This repo contains code for the paper [Energy-Based generative models for monoclonal antibodies].
 Some of the code was adapted from the repository [GflowNet for Biological Sequence Design] (https://github.com/MJ10/BioSeq-GFN-AL)
 See Licence for more information
 

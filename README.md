@@ -5,7 +5,7 @@ Some of the code was adapted from the repository [GflowNet for Biological Sequen
 See Licence for more information
 
 ## Setup
-The code has been tested with Python 3.7 with CUDA 10.2 and CUDNN 8.0.
+The code has been tested with Python 3.7 with CUDA 11.3 and CUDNN 8.0.
 
 1. We recommand setting up an anaconda environment before running the code
 2. Before installing the requirements, ensure you have a c++ compiler available on your machine (apt-get install build-essential on ubuntu)

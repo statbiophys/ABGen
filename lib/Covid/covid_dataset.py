@@ -569,11 +569,11 @@ class ESMTrainBestCovidDataset(Dataset):
     def load_data(self):
         script_dir = os.path.dirname(__file__)
         self.esm_enc_t6 = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_esm_t6.pt')).to(torch.float32)
-        self.esm_enc_t30 = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_esm_t30.pt')).to(torch.float32)
-        self.esm_enc_t33 = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_esm_t33.pt')).to(torch.float32)
-        self.ant_enc = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_ant_enc.pt')).to(torch.float32)[:-1]
+        #self.esm_enc_t30 = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_esm_t30.pt')).to(torch.float32)
+        #self.esm_enc_t33 = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_esm_t33.pt')).to(torch.float32)
+        #self.ant_enc = torch.load(os.path.join(script_dir, 'embeddings','covid_seqs_ant_enc.pt')).to(torch.float32)[:-1]
         self.one_hot_vec = torch.load(os.path.join(script_dir, 'embeddings','covid_one_hot_vec.pt')).to(torch.float32)
-        self.energy_emb = torch.load(os.path.join(script_dir, 'embeddings','energy_embs.pt')).to(torch.float32)[:-1]
+        #self.energy_emb = torch.load(os.path.join(script_dir, 'embeddings','energy_embs.pt')).to(torch.float32)[:-1]
         self.score = np.load(os.path.join(script_dir, 'data','covid_scores.npy'))
         self.score = self.score[:-1]
         self.length = np.load(os.path.join(script_dir, 'data','covid_length.npy'))

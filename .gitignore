@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+*.out
+*.ipynb_checkpoints
+*.sh
+*.ipynb
+*.pt
+upload_zenodo.py
+download_seqs.py
+
